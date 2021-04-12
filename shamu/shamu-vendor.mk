@@ -51,6 +51,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libflacencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libflacencoder.so \
     vendor/motorola/shamu/proprietary/lib/libmdmdetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdmdetect.so \
     vendor/motorola/shamu/proprietary/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmotaudioutils.so \
+    vendor/motorola/shamu/proprietary/lib/libFaceDetectCA.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFaceDetectCA.so \
+    vendor/motorola/shamu/proprietary/lib/libmegface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmegface.so \
+    vendor/motorola/shamu/proprietary/lib/libMegviiUnlock.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMegviiUnlock.so \
+    vendor/motorola/shamu/proprietary/lib/libMegviiUnlock-jni-1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMegviiUnlock-jni-1.2.so
     vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu/proprietary/vendor/firmware/VRGain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/VRGain.bin \
     vendor/motorola/shamu/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
